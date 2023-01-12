@@ -23,5 +23,6 @@ export class AppComponent implements OnInit {
       this.results = response;
     });
   }
+
   title = 'projectAngular';
 }

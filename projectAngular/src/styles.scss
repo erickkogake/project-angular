@@ -11,13 +11,13 @@ body {
   display: flex;
   justify-content: space-around;
   box-shadow: 0px 1.5px 0px 1px #a59f9f;
-  background-color: #30405E;
+  background-color: #465c85;
 }
 
 .logo-decathlon {
   width: 110px;
-  margin-right: 10px;
   margin-top: 5px;
+  margin-left: 60px;
 }
 
 .nav-bar {
@@ -34,7 +34,7 @@ body {
 
 .ul-item li:hover {
   transform: scale(1.15);
-  transition: 1s transform;
+  transition: 0.5s transform;
 }
 
 .ul-item li a {

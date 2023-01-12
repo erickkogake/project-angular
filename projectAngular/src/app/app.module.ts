@@ -7,9 +7,13 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { ListPlayersComponent } from './list-players/list-players.component';
 @NgModule({
   declarations: [
     AppComponent,
+    AboutMeComponent,
+    ListPlayersComponent,
   ],
   imports: [
     BrowserModule,
